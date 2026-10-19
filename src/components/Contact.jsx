@@ -64,7 +64,7 @@ export default function Contact() {
                     rel="noopener noreferrer"
                     className="direct-link"
                   >
-                    Open WhatsApp Chat &rarr;
+                    Open WhatsApp Chat →
                   </a>
                 </div>
               </div>

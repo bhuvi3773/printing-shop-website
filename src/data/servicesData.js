@@ -15,12 +15,12 @@ export const DEMO_PRICE_DISCLAIMER =
   "Notice: Displayed prices are illustrative demonstration estimates based on standard regional rates. Contact our shop directly or click 'Request Custom Quote' for confirmed order pricing.";
 
 export const SHOP_CONTACT_INFO = {
-  shopName: "PrintCraft Studio (Placeholder)",
-  phoneDisplay: "+91 98765 43210 (Placeholder Number)",
+  shopName: "PrintCraft Studio (Sample Business Name)",
+  phoneDisplay: "+91 98765 43210 (Sample Number)",
   phoneRaw: "919876543210",
   whatsappNumber: "919876543210", // REPLACE WITH REAL WHATSAPP NUMBER (Digits only, e.g., 919876543210)
-  addressDisplay: "Shop No. 14, Commercial Plaza, Market Road (Placeholder Location)",
-  hoursDisplay: "Monday – Saturday: 9:30 AM – 8:30 PM (Subject to Owner Confirmation)",
+  addressDisplay: "Shop No. 14, Commercial Plaza, Market Road, Sample City",
+  hoursDisplay: "Mon–Sat, 9:00 AM–7:00 PM (Sample Hours)",
   emailDisplay: "orders@printcraft-placeholder.com",
 };
 

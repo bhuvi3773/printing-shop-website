@@ -499,6 +499,297 @@
   margin-bottom: var(--space-md);
 }
 
+/* Service Guide Pill */
+.service-guide-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: var(--space-md);
+  padding: 0.55rem 1.15rem;
+  background: var(--color-gold-surface);
+  border: 1px solid var(--color-gold-border);
+  border-radius: var(--radius-full);
+  font-size: 0.88rem;
+  color: var(--color-beige-base);
+  line-height: 1.4;
+}
+
+.service-guide-pill strong {
+  color: var(--color-gold-base);
+}
+
+/* Service Visual Preview Box */
+.service-preview-box {
+  width: 100%;
+  height: 110px;
+  background: var(--color-bg-deep);
+  border: 1px solid var(--color-border-subtle);
+  border-radius: var(--radius-md);
+  margin-bottom: var(--space-md);
+  padding: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Mini Visiting Card Mockup */
+.preview-card-mockup {
+  width: 170px;
+  height: 85px;
+  background: linear-gradient(135deg, #242732 0%, #161820 100%);
+  border: 1px solid var(--color-gold-border);
+  border-radius: 6px;
+  padding: 0.55rem 0.65rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.mini-card-chip {
+  width: 20px;
+  height: 14px;
+  background: var(--color-gold-base);
+  border-radius: 3px;
+}
+
+.mini-card-lines {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.mini-line {
+  height: 4px;
+  background: rgba(230, 223, 213, 0.25);
+  border-radius: 2px;
+}
+
+.mini-line.gold { background: var(--color-gold-base); }
+.mini-line.w-40 { width: 40%; }
+.mini-line.w-50 { width: 50%; }
+.mini-line.w-60 { width: 60%; }
+.mini-line.w-70 { width: 70%; }
+.mini-line.w-80 { width: 80%; }
+.mini-line.w-90 { width: 90%; }
+
+.mini-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.62rem;
+  color: var(--color-beige-muted);
+}
+
+.badge-micro {
+  font-size: 0.58rem;
+  font-weight: 700;
+  color: var(--color-gold-base);
+  background: var(--color-gold-surface);
+  padding: 1px 4px;
+  border-radius: 3px;
+}
+
+/* Mini Flex Banner Mockup */
+.preview-banner-mockup {
+  position: relative;
+  width: 220px;
+  height: 75px;
+  background: #1c1e28;
+  border: 1px dashed var(--color-gold-border);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+}
+
+.banner-grommet {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  border: 1.5px solid var(--color-gold-base);
+  background: var(--color-bg-deep);
+}
+
+.banner-grommet.tl { top: 4px; left: 4px; }
+.banner-grommet.tr { top: 4px; right: 4px; }
+.banner-grommet.bl { bottom: 4px; left: 4px; }
+.banner-grommet.br { bottom: 4px; right: 4px; }
+
+.banner-mockup-body {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.banner-label {
+  font-family: var(--font-heading);
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--color-gold-base);
+  letter-spacing: 0.05em;
+}
+
+.banner-sub {
+  font-size: 0.62rem;
+  color: var(--color-beige-muted);
+}
+
+/* Mini Brochure Mockup */
+.preview-brochure-mockup {
+  display: flex;
+  width: 170px;
+  height: 85px;
+  background: #1b1d26;
+  border: 1px solid var(--color-border-subtle);
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+}
+
+.brochure-panel {
+  flex: 1;
+  padding: 0.65rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.brochure-panel.panel-left {
+  background: #181920;
+}
+
+.brochure-panel.panel-right {
+  background: #20232e;
+}
+
+.brochure-crease {
+  width: 2px;
+  background: var(--color-gold-border);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Mini Sticker Mockup */
+.preview-sticker-mockup {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sticker-disc {
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #2b281f 0%, #171512 100%);
+  border: 2px dashed var(--color-gold-base);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+
+.disc-star {
+  color: var(--color-gold-base);
+  font-size: 0.85rem;
+}
+
+.disc-text {
+  font-size: 0.58rem;
+  font-weight: 800;
+  color: var(--color-beige-base);
+  letter-spacing: 0.05em;
+}
+
+.sticker-peel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 16px;
+  height: 16px;
+  background: var(--color-gold-surface);
+  border-bottom-left-radius: 10px;
+  border-left: 1px solid var(--color-gold-border);
+  border-bottom: 1px solid var(--color-gold-border);
+}
+
+/* Mini Stationery Mockup */
+.preview-stationery-mockup {
+  width: 140px;
+  height: 85px;
+  background: #1f212a;
+  border: 1px solid var(--color-border-subtle);
+  border-radius: 4px;
+  padding: 0.5rem 0.65rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sheet-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.sheet-crest {
+  width: 12px;
+  height: 12px;
+  background: var(--color-gold-base);
+  border-radius: 2px;
+}
+
+.sheet-header-line {
+  flex: 1;
+  height: 4px;
+  background: var(--color-gold-border);
+  border-radius: 2px;
+}
+
+.sheet-body-lines {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+/* Mini Custom Mockup */
+.preview-custom-mockup {
+  width: 180px;
+  height: 80px;
+  background: #1c1a24;
+  border: 1px solid var(--color-gold-border);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+}
+
+.custom-frame {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.custom-text {
+  font-family: var(--font-heading);
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--color-gold-base);
+}
+
+.custom-sub {
+  font-size: 0.65rem;
+  color: var(--color-beige-muted);
+}
+
 .service-icon-wrapper {
   font-size: 2rem;
   line-height: 1;
