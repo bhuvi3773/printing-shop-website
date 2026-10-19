@@ -363,7 +363,7 @@ export default function PricingCalculator({ selectedServiceId, onServiceChange }
                       onChange={(e) => setFlexMaterial(e.target.value)}
                     >
                       {currentService.options.materialGrade.map((opt) => (
-                        <option key={opt.id} value={opt.id}>{opt.name} — ₹{opt.ratePerSqFt}/sq.ft</option>
+                        <option key={opt.id} value={opt.id}>{opt.name} — ₹{opt.ratePerSqFt}/sq.ft (Demo)</option>
                       ))}
                     </select>
                   </div>
@@ -613,7 +613,7 @@ export default function PricingCalculator({ selectedServiceId, onServiceChange }
           <div className="calculator-summary-panel card">
             <div className="summary-header">
               <span className="summary-tag">Rate Summary</span>
-              <span className="badge demo-badge">Demonstration Rate</span>
+              <span className="badge demo-badge">DEMO RATE ONLY</span>
             </div>
 
             <div className="selected-service-title">
@@ -627,10 +627,10 @@ export default function PricingCalculator({ selectedServiceId, onServiceChange }
                 <div className="price-primary">
                   <span className="currency-symbol">₹</span>
                   <span className="price-number">{calculation.total.toLocaleString('en-IN')}</span>
-                  <span className="price-tax-note">Approx. Total</span>
+                  <span className="price-tax-note">Approx. Total (DEMO)</span>
                 </div>
                 <div className="price-secondary">
-                  <span>Unit Rate: <strong>₹{calculation.unitPrice}</strong> / item</span>
+                  <span>Unit Rate: <strong>₹{calculation.unitPrice}</strong> / item (Demo Estimate)</span>
                 </div>
               </div>
             ) : (

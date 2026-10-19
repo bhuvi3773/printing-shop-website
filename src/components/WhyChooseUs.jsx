@@ -3,24 +3,24 @@ import React from 'react';
 export default function WhyChooseUs() {
   const pillars = [
     {
-      icon: "💎",
-      title: "Tested Substrates & Inks",
-      desc: "We use genuine branded boards (300–400 GSM) and UV-resistant outdoor flex media for color stability and durability.",
+      icon: "📐",
+      title: "Custom Formats",
+      desc: "Support for standard and custom dimensions across visiting cards, outdoor banners, flyers, and stationery (subject to shop confirmation).",
     },
     {
-      icon: "🔍",
-      title: "Over-the-Counter Proofing",
-      desc: "Examine physical cardstock samples, lamination swatches, and test prints at our counter before committing to large volumes.",
+      icon: "💬",
+      title: "Direct Counter Enquiries",
+      desc: "Connect directly with our local printing team via WhatsApp or shop visits for clear, personalized communication without intermediaries.",
     },
     {
       icon: "⚖️",
-      title: "Transparent Workshop Rates",
-      desc: "Our rate calculations are direct and clear. Minimum volume requirements and finishing options are explained upfront.",
+      title: "Transparent Estimates",
+      desc: "Calculations based on standard rate structures, with clearly marked demonstration estimates and dedicated custom quote options.",
     },
     {
-      icon: "⚡",
-      title: "Direct In-House Production",
-      desc: "Equipped with commercial digital presses, large-format flex plotters, and precision cutting machines under one roof.",
+      icon: "📇",
+      title: "Product Variety",
+      desc: "A wide range of card stocks, banner media, and sticker finishes tailored to your specific commercial or personal project.",
     },
   ];
 
@@ -28,10 +28,10 @@ export default function WhyChooseUs() {
     <section id="why-us" className="section why-section">
       <div className="container">
         <div className="section-header">
-          <span className="section-tag">Shop Standards</span>
-          <h2 className="section-title">Why Customers Trust Our Workshop</h2>
+          <span className="section-tag">Service Highlights</span>
+          <h2 className="section-title">Why Choose Our Shop</h2>
           <p className="section-subtitle">
-            Reliable local printing with dedicated craftsmanship and personalized counter consultation.
+            Straightforward service highlights and direct communication (all specifications subject to final shop confirmation).
           </p>
         </div>
 

@@ -39,17 +39,17 @@ export default function Hero({ onExploreServices, onGetPrice }) {
           {/* Trust Points */}
           <div className="hero-specs-strip">
             <div className="spec-item">
-              <span className="spec-val">400+ GSM</span>
-              <span className="spec-lbl">Luxury Boards</span>
+              <span className="spec-val">Custom Sizes</span>
+              <span className="spec-lbl">Flexible Dimensions</span>
             </div>
             <div className="spec-divider"></div>
             <div className="spec-item">
-              <span className="spec-val">Solvent & UV</span>
-              <span className="spec-lbl">Vibrant Inks</span>
+              <span className="spec-val">Multiple Stocks</span>
+              <span className="spec-lbl">Matte & Gloss Options</span>
             </div>
             <div className="spec-divider"></div>
             <div className="spec-item">
-              <span className="spec-val">Direct Shop</span>
+              <span className="spec-val">Direct Enquiries</span>
               <span className="spec-lbl">Over-the-Counter</span>
             </div>
           </div>
